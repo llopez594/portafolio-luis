@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luis López — Desarrollador Backend</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <header class="nav">
+    <div class="nav__logo">LL<span>.</span></div>
+    <button class="nav__toggle" id="navToggle" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav__links" id="navLinks">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero__text">
+      <p class="hero__greeting">Hola, soy</p>
+      <h1 class="hero__name">Luis López</h1>
+      <h2 class="hero__role">Desarrollador <span>Backend</span></h2>
+      <p class="hero__desc">
+        Construyo sistemas robustos y APIs escalables con PHP, Laravel y Node.js.
+        Apasionado por la arquitectura limpia y la automatización de procesos.
+      </p>
+      <div class="hero__cta">
+        <a href="#proyectos" class="btn btn--primary">Ver proyectos</a>
+        <a href="#contacto" class="btn btn--outline">Contacto</a>
+      </div>
+    </div>
+    <div class="hero__photo">
+      <div class="hero__photo-wrapper">
+        <img src="img/foto.png" alt="Luis López" />
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE MÍ -->
+  <section class="section" id="sobre-mi">
+    <div class="container">
+      <h2 class="section__title">Sobre <span>mí</span></h2>
+      <div class="about__grid">
+        <div class="about__text">
+          <p>
+            Soy Técnico Superior en Informática con más de 5 años de experiencia
+            desarrollando soluciones de software para empresas en Venezuela, Perú y Brasil.
+            Me especializo en el desarrollo backend, pero también tengo experiencia en
+            mobile con Android y en la integración de sistemas empresariales.
+          </p>
+          <p>
+            Me motiva construir software que realmente funcione y que las personas
+            encuentren útil. Disfruto resolver problemas complejos, optimizar procesos
+            y aprender nuevas tecnologías en el camino.
+          </p>
+          <p>
+            Actualmente trabajo como Desarrollador Backend en Internacional Certification
+            Organización S.A.C., donde desarrollo sistemas de gestión ISO y automatizaciones
+            con integraciones de APIs externas.
+          </p>
+        </div>
+        <div class="about__info">
+          <div class="info-card">
+            <div class="info-card__item">
+              <span class="label">Ubicación</span>
+              <span>Boa Vista, Brasil</span>
+            </div>
+            <div class="info-card__item">
+              <span class="label">Experiencia</span>
+              <span>+5 años</span>
+            </div>
+            <div class="info-card__item">
+              <span class="label">Disponibilidad</span>
+              <span class="badge badge--green">Abierto a ofertas</span>
+            </div>
+            <div class="info-card__item">
+              <span class="label">Email</span>
+              <span>luisjlopez594@gmail.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HABILIDADES -->
+  <section class="section section--alt" id="habilidades">
+    <div class="container">
+      <h2 class="section__title">Habilidades <span>técnicas</span></h2>
+      <div class="skills__grid">
+
+        <div class="skill-group">
+          <h3 class="skill-group__title">Backend</h3>
+          <div class="skill-tags">
+            <span class="tag">PHP</span>
+            <span class="tag">Laravel</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">NestJS</span>
+            <span class="tag">ASP.NET</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group__title">Bases de datos</h3>
+          <div class="skill-tags">
+            <span class="tag">MySQL</span>
+            <span class="tag">MongoDB</span>
+            <span class="tag">SQL Server</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group__title">Mobile</h3>
+          <div class="skill-tags">
+            <span class="tag">Android</span>
+            <span class="tag">Kotlin</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group__title">DevOps & Herramientas</h3>
+          <div class="skill-tags">
+            <span class="tag">Git</span>
+            <span class="tag">Docker</span>
+            <span class="tag">AWS</span>
+            <span class="tag">Power BI</span>
+            <span class="tag">Postman</span>
+            <span class="tag">Figma</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group__title">Arquitectura</h3>
+          <div class="skill-tags">
+            <span class="tag">MVC</span>
+            <span class="tag">MVVM</span>
+            <span class="tag">SOLID</span>
+            <span class="tag">Clean Architecture</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group__title">Metodologías</h3>
+          <div class="skill-tags">
+            <span class="tag">Scrum</span>
+            <span class="tag">Agile</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section class="section" id="proyectos">
+    <div class="container">
+      <h2 class="section__title">Proyectos <span>destacados</span></h2>
+      <div class="projects__grid">
+
+        <div class="project-card">
+          <div class="project-card__header">
+            <span class="project-card__icon">⚙️</span>
+            <div class="project-card__links">
+              <a href="#" class="icon-link" title="Ver código">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6" />
+                  <polyline points="8 6 2 12 8 18" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <h3>Sistema de gestión ISO</h3>
+          <p>Backend para gestión de cotizaciones y flujos administrativos con integración de formularios externos y
+            automatizaciones via API.</p>
+          <div class="project-card__tags">
+            <span class="tag tag--sm">Laravel</span>
+            <span class="tag tag--sm">MySQL</span>
+            <span class="tag tag--sm">Power BI</span>
+            <span class="tag tag--sm">REST API</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card__header">
+            <span class="project-card__icon">🐾</span>
+            <div class="project-card__links">
+              <a href="#" class="icon-link" title="Ver código">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6" />
+                  <polyline points="8 6 2 12 8 18" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <h3>App Pets — Backend</h3>
+          <p>Sistema backend para gestión de vendedores, proveedores y ventas en aplicación móvil disponible en iOS y
+            Android.</p>
+          <div class="project-card__tags">
+            <span class="tag tag--sm">Node.js</span>
+            <span class="tag tag--sm">MongoDB</span>
+            <span class="tag tag--sm">NestJS</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card__header">
+            <span class="project-card__icon">💳</span>
+            <div class="project-card__links">
+              <a href="#" class="icon-link" title="Ver código">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6" />
+                  <polyline points="8 6 2 12 8 18" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <h3>Sistema de cobranzas</h3>
+          <p>Web completa para control de cobranzas de socios y accionistas, integrado con Saint Enterprise. Incluye
+            módulo de reservas y POS.</p>
+          <div class="project-card__tags">
+            <span class="tag tag--sm">PHP</span>
+            <span class="tag tag--sm">MySQL</span>
+            <span class="tag tag--sm">Saint Enterprise</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card__header">
+            <span class="project-card__icon">📱</span>
+            <div class="project-card__links">
+              <a href="#" class="icon-link" title="Ver código">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6" />
+                  <polyline points="8 6 2 12 8 18" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <h3>Apps Android — Almacén</h3>
+          <p>Tres aplicaciones móviles Android para gestión de almacén, ventas y catálogos de repuestos. Arquitectura
+            MVVM con Kotlin.</p>
+          <div class="project-card__tags">
+            <span class="tag tag--sm">Android</span>
+            <span class="tag tag--sm">Kotlin</span>
+            <span class="tag tag--sm">MVVM</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCIA -->
+  <section class="section section--alt" id="experiencia">
+    <div class="container">
+      <h2 class="section__title">Experiencia <span>laboral</span></h2>
+      <div class="timeline">
+
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <span class="timeline__date">Ago 2024 — Actual</span>
+            <h3>Desarrollador Backend</h3>
+            <span class="timeline__company">Internacional Certification Organización S.A.C.</span>
+            <p>Desarrollo backend en Laravel para gestión ISO, integración de Meta Forms, dashboards con Power BI y
+              scrapers automatizados para licitaciones públicas.</p>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <span class="timeline__date">Abr 2023 — Ago 2024</span>
+            <h3>Desarrollador Backend — Node.js</h3>
+            <span class="timeline__company">Animales Felices Perú S.A.C.</span>
+            <p>Backend para app Pets: gestión de vendedores, proveedores y ventas. Optimización de flujos con Node.js y
+              MongoDB.</p>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <span class="timeline__date">Feb 2023 — May 2023</span>
+            <h3>Desarrollador Backend</h3>
+            <span class="timeline__company">Sempiterno Group S.A.C.</span>
+            <p>Desarrollo de aplicaciones web y móviles para control de almacén. Módulos backend para apertura de
+              cuentas y solicitudes de crédito.</p>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <span class="timeline__date">Feb 2022 — Ene 2023</span>
+            <h3>Desarrollador Fullstack</h3>
+            <span class="timeline__company">RSistems C.A.</span>
+            <p>Sistema web completo para control de cobranzas integrado con Saint Enterprise. Módulo de reservas y
+              adaptación de sistema POS.</p>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <span class="timeline__date">May 2021 — Dic 2021</span>
+            <h3>Android Developer</h3>
+            <span class="timeline__company">FrooGeT</span>
+            <p>Equipo de arquitectura de software para app tipo red social. Implementación de funcionalidades y APIs en
+              Kotlin.</p>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <span class="timeline__date">Feb 2020 — Ene 2022</span>
+            <h3>Ingeniero Junior IT</h3>
+            <span class="timeline__company">Comercializadora Configuayana C.A.</span>
+            <p>Aplicaciones web para ventas, logística e indicadores. Integraciones con Saint Enterprise y optimización
+              de consultas SQL.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section" id="contacto">
+    <div class="container">
+      <h2 class="section__title">Hablemos <span>:)</span></h2>
+      <p class="section__subtitle">Estoy abierto a nuevas oportunidades. Si tienes un proyecto o quieres trabajar
+        juntos, escríbeme.</p>
+      <div class="contact__grid">
+        <div class="contact__info">
+          <a href="mailto:luisjlopez594@gmail.com" class="contact-item">
+            <div class="contact-item__icon">✉️</div>
+            <div>
+              <span class="label">Email</span>
+              <span>luisjlopez594@gmail.com</span>
+            </div>
+          </a>
+          <a href="tel:+5595991182924" class="contact-item">
+            <div class="contact-item__icon">📞</div>
+            <div>
+              <span class="label">Teléfono</span>
+              <span>+55 (95) 99118-2924</span>
+            </div>
+          </a>
+          <a href="https://github.com" target="_blank" class="contact-item">
+            <div class="contact-item__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.335-1.755-1.335-1.755-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12" />
+              </svg>
+            </div>
+            <div>
+              <span class="label">GitHub</span>
+              <span>https://github.com/llopez594</span>
+            </div>
+          </a>
+        </div>
+
+        <form class="contact__form" id="contactForm">
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="tu@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntame sobre tu proyecto..."
+              required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Enviar mensaje</button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Diseñado y desarrollado por <strong>Luis López</strong> — 2025</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
