@@ -166,101 +166,8 @@
   <section class="section" id="proyectos">
     <div class="container">
       <h2 class="section__title">Proyectos <span>destacados</span></h2>
-      <div class="projects__grid">
-
-        <div class="project-card">
-          <div class="project-card__header">
-            <span class="project-card__icon">⚙️</span>
-            <div class="project-card__links">
-              <a href="#" class="icon-link" title="Ver código">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
-                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <polyline points="16 18 22 12 16 6" />
-                  <polyline points="8 6 2 12 8 18" />
-                </svg>
-              </a>
-            </div>
-          </div>
-          <h3>Sistema de gestión ISO</h3>
-          <p>Backend para gestión de cotizaciones y flujos administrativos con integración de formularios externos y
-            automatizaciones via API.</p>
-          <div class="project-card__tags">
-            <span class="tag tag--sm">Laravel</span>
-            <span class="tag tag--sm">MySQL</span>
-            <span class="tag tag--sm">Power BI</span>
-            <span class="tag tag--sm">REST API</span>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <div class="project-card__header">
-            <span class="project-card__icon">🐾</span>
-            <div class="project-card__links">
-              <a href="#" class="icon-link" title="Ver código">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
-                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <polyline points="16 18 22 12 16 6" />
-                  <polyline points="8 6 2 12 8 18" />
-                </svg>
-              </a>
-            </div>
-          </div>
-          <h3>App Pets — Backend</h3>
-          <p>Sistema backend para gestión de vendedores, proveedores y ventas en aplicación móvil disponible en iOS y
-            Android.</p>
-          <div class="project-card__tags">
-            <span class="tag tag--sm">Node.js</span>
-            <span class="tag tag--sm">MongoDB</span>
-            <span class="tag tag--sm">NestJS</span>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <div class="project-card__header">
-            <span class="project-card__icon">💳</span>
-            <div class="project-card__links">
-              <a href="#" class="icon-link" title="Ver código">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
-                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <polyline points="16 18 22 12 16 6" />
-                  <polyline points="8 6 2 12 8 18" />
-                </svg>
-              </a>
-            </div>
-          </div>
-          <h3>Sistema de cobranzas</h3>
-          <p>Web completa para control de cobranzas de socios y accionistas, integrado con Saint Enterprise. Incluye
-            módulo de reservas y POS.</p>
-          <div class="project-card__tags">
-            <span class="tag tag--sm">PHP</span>
-            <span class="tag tag--sm">MySQL</span>
-            <span class="tag tag--sm">Saint Enterprise</span>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <div class="project-card__header">
-            <span class="project-card__icon">📱</span>
-            <div class="project-card__links">
-              <a href="#" class="icon-link" title="Ver código">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
-                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <polyline points="16 18 22 12 16 6" />
-                  <polyline points="8 6 2 12 8 18" />
-                </svg>
-              </a>
-            </div>
-          </div>
-          <h3>Apps Android — Almacén</h3>
-          <p>Tres aplicaciones móviles Android para gestión de almacén, ventas y catálogos de repuestos. Arquitectura
-            MVVM con Kotlin.</p>
-          <div class="project-card__tags">
-            <span class="tag tag--sm">Android</span>
-            <span class="tag tag--sm">Kotlin</span>
-            <span class="tag tag--sm">MVVM</span>
-          </div>
-        </div>
-
+      <div class="projects__grid" id="projectsGrid">
+        <p class="projects__loading">Cargando proyectos...</p>
       </div>
     </div>
   </section>
@@ -402,6 +309,7 @@
     <p>Diseñado y desarrollado por <strong>Luis López</strong> — 2025</p>
   </footer>
 
+  <script src="js/config.js"></script>
   <script src="js/main.js"></script>
 </body>
 

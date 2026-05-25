@@ -685,3 +685,13 @@ img {
     padding-left: 1rem;
   }
 }
+
+/* 
+   PROYECTOS — estado de carga
+ */
+.projects__loading {
+  color: var(--color-muted);
+  font-size: 0.9rem;
+  grid-column: 1 / -1;
+  padding: 2rem 0;
+}
