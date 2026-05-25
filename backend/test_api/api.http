@@ -1,0 +1,67 @@
+### Portafolio Personal — Luis López
+### Pruebas de API con REST Client (VS Code)
+### Extensión requerida: humao.rest-client
+
+@api = http://localhost:3000
+#@api = https://llopez594.alwaysdata.net/portafolio-backend
+
+###############################################
+# HEALTH
+###############################################
+
+### Verificar que el servidor está activo
+GET {{api}}/
+
+###############################################
+# PROYECTOS
+###############################################
+
+### Obtener todos los proyectos
+GET {{api}}/api/projects
+
+###
+
+### Obtener solo proyectos destacados
+GET {{api}}/api/projects/featured
+
+###
+
+### Obtener proyecto por ID
+GET {{api}}/api/projects/1
+
+###
+
+### Obtener proyecto inexistente (debe retornar 404)
+GET {{api}}/api/projects/999
+
+###############################################
+# MENSAJES
+###############################################
+
+### Enviar mensaje de contacto (válido)
+POST {{api}}/api/messages
+Content-Type: application/json
+
+{
+  "name": "Juan Pérez",
+  "email": "juan@example.com",
+  "message": "Hola Luis, vi tu portafolio y me interesa tu perfil para un proyecto."
+}
+
+###
+
+### Enviar mensaje sin campos (debe retornar 400)
+POST {{api}}/api/messages
+Content-Type: application/json
+
+{
+  "name": "Juan Pérez"
+}
+
+###
+
+### Enviar mensaje vacío (debe retornar 400)
+POST {{api}}/api/messages
+Content-Type: application/json
+
+{}
